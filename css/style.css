@@ -98,6 +98,207 @@ p{
     color: var(--primary-text);
     line-height: 1.625rem;
 }
+ .custom-carousel {
+          min-height: 90vh;
+      }
+
+      .custom-carousel .carousel-item {
+          height: 90vh;
+      }
+      .carousel-caption {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .image-container {
+      position: relative;
+    }
+    .image-container img {
+      display: block;
+      width: 100%;
+    }
+    .form-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .image-container:hover .form-overlay {
+      opacity: 1;
+    }
+    .form-container {
+      background: transparent;
+      padding: 15px;
+      border-radius: 10px;
+      margin: 30px;
+      border: 1px solid #000;
+    }
+    .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* Adjust as needed */
+    height: 80px; /* Adjust as needed */
+    background-color: var(--secondary-color); /* Change to your desired background color */
+    border-radius: 50%; /* This makes it a circle */
+    transition: .5s;
+}
+.icon-container:hover{
+  background-color: var(--primary-color);
+}
+
+.icon {
+    color: var(--bg-white);
+    font-size: 40px; /* Change to your desired icon color */
+}
+#title{
+  color: var(--primary-text);
+}
+.bg-gray{
+  background-color: whitesmoke;
+}
+.counter{
+  background-image: url(https://dam.infor.com/api/public/content/27f2829f180b4f29b61bca432cf50176?v=bd4adcac);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+        .card-img-top {
+            height: 250px;
+            object-fit: cover;
+        }
+       
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px; /* Add space between icons */
+            padding: 10px 0; /* Add padding to top and bottom */
+        }
+        .social-icons a {
+            color: var(--primary-text);
+            font-size: 1.5rem;
+             /* Background color for icons */
+            padding: 10px; /* Add padding inside the icons */
+            border-radius: 50%; /* Make the icons round */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--primary-text);
+            background-color: transparent;
+            text-decoration: none; /* Remove underline */
+        }
+        .social-icons a:hover {
+            background-color: var(--secondary-color); /* Slightly lighter background color on hover */
+            color: var(--bg-white);
+        }
+        .icons{
+          display: flex;
+            gap: 10px; /* Add space between icons */
+            padding: 10px 0; /* Add padding to top and bottom */
+        }
+        .icons a{
+          color: var(--bg-white);
+            font-size: 1.5rem;
+             /* Background color for icons */
+            padding: 10px; /* Add padding inside the icons */
+            border-radius: 50%; /* Make the icons round */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--bg-white);
+            background-color: transparent;
+            text-decoration: none; /* Remove underline */
+        }
+        .icons a:hover {
+            background-color: var(--secondary-color); /* Slightly lighter background color on hover */
+            color: var(--bg-white);
+        }
+        .no-padding {
+  padding: 0;
+}
+.no-margin {
+  margin: 0;
+}
+.img-fluid {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.top-row img {
+      height: 300px; /* Adjust the height as needed */
+      object-fit: cover; /* Ensure images cover the assigned space */
+    }
+    .pricing-card {
+      padding: 15px; /* Adjust the padding as needed */
+    }
+    .btn-container {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .price{
+      cursor: pointer;
+      transition: .5s;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+   
+    .price:hover{
+      background-color: var(--secondary-color);
+    }
+    .price:hover h3,
+    .price:hover p,
+    .price:hover h1,
+    .price:hover span,
+    .price:hover u,
+    .price:hover button {
+      color: white !important;
+    }
+    .price:hover button{
+      border: 1px solid #fff;
+    }
+    .card-body-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .footer{
+      background-color: var(--bg-black);
+      color: var(--bg-white);
+    }
+    .contact{
+      color: var(--secondary-color);
+    }
+  
+    .links ul li{
+      list-style: none;
+      
+      
+    }
+    .links ul li a{
+      color: var(--bg-white);
+    }
+    .parag{
+      color: var(--bg-white);
+      font-size: 1.3rem;
+    }
+    .carousel-caption h5{
+      letter-spacing: 6px;
+    }
+    .email{
+      background-color: transparent;
+      border: 1px solid var(--bg-white);
+      padding: 3px;
+      width: 80%;
+    }
+
 .section-title:after{
     content: '';
     background-image: url();
